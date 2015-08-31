@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
  
-  <title>ahorcado </title>
+  <title>Ahorcado</title>
 
   <!--grupo CSS-->
   <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
@@ -26,6 +26,44 @@
  <!-- Principal -->
  <div data-role="page" id="principal" >   
   <div data-role="header">
+    <h1>Ahorcado</h1>
+    </div>
+ 
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+    <div data-role="controlgroup" style="width:65%">
+     <a href="#juego" class="ui-btn ui-btn-corner-all ui-icon-check ui-btn-icon-right">jugar </a>
+     <a href="#opciones" class="ui-btn ui-btn-corner-all ui-icon-gear  ui-btn-icon-right">opciones </a>
+   </div>
+  </div>
+ </div>
+ </div>  
+ <!-- Principal -->
+ 
+ 
+  <!-- opciones -->
+ <div data-role="page" id="opciones">   
+  <div data-role="header">
+  
+   <h1>opciones</h1>
+   <a href="#principal" class="ui-btn-left"data-icon="home" >inicio</a>
+  </div>
+  <div data-role="main" class="ui-content">
+   <div align="center">
+    <div data-role="controlgroup" style="width:65%">
+     <a href="#" class="ui-btn ui-btn-corner-all ui-icon-audio ui-btn-icon-right">sonido </a>
+     <a href="#" class="ui-btn ui-btn-corner-all ui-icon-power  ui-btn-icon-right">vibrar </a>
+    </div>
+   </div>
+ </div>  
+ </div>
+ <!-- opciones -->
+ 
+ 
+  <!-- juego -->
+ <div data-role="page" id="juego" >   
+  <div data-role="header">
     <h1>Encabezado</h1>
   </div>
 
@@ -37,7 +75,7 @@
     <h1>Pie</h1>
   </div>
  </div>  
- <!-- Principal -->
+ <!-- juego -->
 
  </body>
 </html> 
